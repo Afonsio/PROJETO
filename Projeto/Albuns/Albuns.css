@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.album-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 200px;
+}
+
+.album-card img {
+    width: 100%;
+    height: auto;
+}
+
+.album-card h2 {
+    margin: 0.5rem 0;
+}
+
+.album-card p {
+    padding: 0 1rem;
+}
+
+.album-card a {
+    display: block;
+    background-color: #ff0000;
+    color: white;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+.group-name {
+    color: white;
+}

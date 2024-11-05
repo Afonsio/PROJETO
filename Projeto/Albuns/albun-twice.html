@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="Albuns.css">
+    <title>Starpop Central</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Starpop</h1>
+            </div>
+            <div class="group-name">                
+                <h2>TWICE</h2>            
+            </div>
+            <div class="nav-list">
+                <ul>
+                
+                    <li class="nav-item"><a href="../../index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="../../Projeto/codigos/membros.html" class="nav-link">Membros</a></li>
+                    <ul class="nav">
+                      <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Álbuns</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="albun-bts.html">BTS</a>
+                          <a class="dropdown-item" href="albun-stray.html">STRAY KIDS</a>
+                          <a class="dropdown-item" href="albun-twice.html">TWICE</a>
+                          <a class="dropdown-item" href="albun-blackpink.html">BLACKPINK</a>
+                        </div>
+                      </li>
+                    </ul>      
+
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="../../assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+
+                <li class="nav-item"><a href="../../index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="Projeto/codigos/membros.html" class="nav-link">Membros</a></li>
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Álbuns</a>
+                <div class="container-botoes">
+                  <a href="albun-bts.html" class="botao">BTS</a>
+                  <a href="albun-stray.html" class="botao">STRAY KIDS</a>
+                  <a href="albun-twice.html" class="botao">TWICE</a>
+                  <a href="albun-blackpink.html" class="botao">BLACKPINK</a>
+                </div>
+                
+        </div>
+    </header>
+
+    <main>
+        <div class="album-card">
+            <img src="[URL da Imagem do Álbum]" alt="The Story Begins">
+            <h2>The Story Begins</h2>
+            <p>[Descrição do Álbum]</p>
+            <a href="[Link para YouTube Music]">Ouça no YouTube Music</a>
+        </div>
+        <div class="album-card">
+            <img src="[URL da Imagem do Álbum]" alt="Page Two">
+            <h2>Page Two</h2>
+            <p>[Descrição do Álbum]</p>
+            <a href="[Link para YouTube Music]">Ouça no YouTube Music</a>
+        </div>
+        <!-- Repita a div .album-card para cada álbum -->
+    </main>
+    <script src="../../assets/js/script.js"></script>
+</body>
+</html>
